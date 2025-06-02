@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Talk to Me, My Love 💬</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      color: #8b0000;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.2em;
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      resize: none;
+      font-size: 1em;
+    }
+
+    button {
+      margin-top: 15px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1em;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff1493;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey Love 🌸</h1>
+  <p>
+    Whenever you're feeling something — happy, sad, confused, or anything at all — I'm here. Just write to me below 💌
+  </p>
+
+  <form action="https://formspree.io/f/xpwrzdda" method="POST">
+    <label for="message">Tell me anything, anytime 💬</label>
+    <textarea name="message" id="message" placeholder="Write what's on your heart..." required></textarea>
+    <button type="submit">Send to Me 💖</button>
+  </form>
+
+  <footer>
+    Made with ❤️ just for you
+  </footer>
+</body>
+</html>
